@@ -134,6 +134,11 @@ export default function HeroSection() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              document
+                .getElementById("presale")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
             className="px-8 py-3 rounded-full font-semibold border-2 border-cyan-400/50 bg-white/5 backdrop-blur-md text-cyan-400 hover:bg-white/10 hover:shadow-[0_0_25px_rgba(34,211,238,0.4)] transition-all duration-300"
           >
             Join Presale

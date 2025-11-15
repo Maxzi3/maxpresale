@@ -9,7 +9,7 @@ const nunitoSans = Nunito_Sans({
   display: "swap",
 });
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"), 
+  metadataBase: new URL("https://maxpresale.vercel.app/"),
   title: {
     default: "$MAX Token — Web3 Presale",
     template: "%s | $MAX Token Presale",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "$MAX Token — Web3 Presale",
     description:
       "Secure early access to $MAX Token. Limited presale with bonuses and exclusive allocations.",
-    url: "https://your-domain.com",
+    url: "https://maxpresale.vercel.app/",
     siteName: "$MAX Token",
     images: [
       {
